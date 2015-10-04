@@ -11,7 +11,7 @@ public enum Sum: DictionaryLiteralConvertible, Metaprogrammable {
 	public static var metatype: Metatype {
 		return .Structural([
 			"Branch": [ (nil, .Opaque(String.self)), (nil, Product.metatype), (nil, .Recurrence) ],
-			"End": []
+			"End": [],
 		])
 	}
 }
