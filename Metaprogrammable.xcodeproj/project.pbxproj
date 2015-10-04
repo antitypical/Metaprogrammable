@@ -13,6 +13,7 @@
 		D43AC8B31BC19188008762B7 /* Metaprogrammable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43AC8B21BC19188008762B7 /* Metaprogrammable.swift */; };
 		D43AC8B51BC19208008762B7 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43AC8B41BC19208008762B7 /* Product.swift */; };
 		D43AC8B71BC19298008762B7 /* Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43AC8B61BC19298008762B7 /* Sum.swift */; };
+		D43AC8B91BC193D0008762B7 /* Fold.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43AC8B81BC193D0008762B7 /* Fold.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 		D43AC8B21BC19188008762B7 /* Metaprogrammable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Metaprogrammable.swift; sourceTree = "<group>"; };
 		D43AC8B41BC19208008762B7 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		D43AC8B61BC19298008762B7 /* Sum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sum.swift; sourceTree = "<group>"; };
+		D43AC8B81BC193D0008762B7 /* Fold.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fold.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				D43AC8961BC19151008762B7 /* Info.plist */,
+				D43AC8B81BC193D0008762B7 /* Fold.swift */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 			files = (
 				D43AC8B31BC19188008762B7 /* Metaprogrammable.swift in Sources */,
 				D43AC8B51BC19208008762B7 /* Product.swift in Sources */,
+				D43AC8B91BC193D0008762B7 /* Fold.swift in Sources */,
 				D43AC8B71BC19298008762B7 /* Sum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
