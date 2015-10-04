@@ -27,7 +27,6 @@ public enum Metatype: CustomStringConvertible, Metaprogrammable {
 		return Structural(self, [
 			"Structural": [ Sum.metatype ],
 			"Opaque": [ .Opaque(Any.Type.self) ],
-			"Recurrence": [],
 		])
 	}
 }
