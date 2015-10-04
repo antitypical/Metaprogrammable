@@ -20,12 +20,7 @@ public enum Metatype: CustomStringConvertible, Metaprogrammable {
 
 
 	public var description: String {
-		switch self {
-		case let .Structural(t, _):
-			return String(t)
-		case let .Opaque(t):
-			return String(t)
-		}
+		return String(type)
 	}
 
 	public static var metatype: Metatype {
