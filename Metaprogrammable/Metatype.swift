@@ -16,8 +16,8 @@ public enum Metatype: Metaprogrammable {
 
 	public static var metatype: Metatype {
 		return .Structural([
-			"Structural": [ (nil, Sum.metatype) ],
-			"Opaque": [ (nil, .Opaque(Any.Type.self)) ],
+			"Structural": [ Sum.metatype ],
+			"Opaque": [ .Opaque(Any.Type.self) ],
 			"Recurrence": [],
 		])
 	}
