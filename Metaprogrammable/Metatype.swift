@@ -8,10 +8,6 @@ public enum Metatype: Metaprogrammable {
 	/// An opaque reference to a type.
 	case Opaque(Any.Type)
 
-	/// A recursive reference to the type.
-	///
-	/// This can only appear within `Sum`s and `Product`s.
-	case Recurrence
 
 
 	public static var metatype: Metatype {
