@@ -16,6 +16,7 @@
 		D43AC8B91BC193D0008762B7 /* Fold.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43AC8B81BC193D0008762B7 /* Fold.swift */; };
 		D43AC8BB1BC19EF0008762B7 /* Metatype.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43AC8BA1BC19EF0008762B7 /* Metatype.swift */; };
 		D43AC8BD1BC1B5D6008762B7 /* Metavalue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43AC8BC1BC1B5D6008762B7 /* Metavalue.swift */; };
+		D43AC8BF1BC1B638008762B7 /* Field.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43AC8BE1BC1B638008762B7 /* Field.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,7 @@
 		D43AC8B81BC193D0008762B7 /* Fold.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fold.swift; sourceTree = "<group>"; };
 		D43AC8BA1BC19EF0008762B7 /* Metatype.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Metatype.swift; sourceTree = "<group>"; };
 		D43AC8BC1BC1B5D6008762B7 /* Metavalue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Metavalue.swift; sourceTree = "<group>"; };
+		D43AC8BE1BC1B638008762B7 /* Field.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Field.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 				D43AC8B61BC19298008762B7 /* Sum.swift */,
 				D43AC8BA1BC19EF0008762B7 /* Metatype.swift */,
 				D43AC8BC1BC1B5D6008762B7 /* Metavalue.swift */,
+				D43AC8BE1BC1B638008762B7 /* Field.swift */,
 				D43AC8951BC19151008762B7 /* Supporting Files */,
 			);
 			path = Metaprogrammable;
@@ -224,6 +227,7 @@
 				D43AC8B31BC19188008762B7 /* Metaprogrammable.swift in Sources */,
 				D43AC8B51BC19208008762B7 /* Product.swift in Sources */,
 				D43AC8B91BC193D0008762B7 /* Fold.swift in Sources */,
+				D43AC8BF1BC1B638008762B7 /* Field.swift in Sources */,
 				D43AC8B71BC19298008762B7 /* Sum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
