@@ -3,7 +3,7 @@
 /// A description of the structure of a type.
 public enum Metatype: Metaprogrammable {
 	/// A structural, or algebraic, type.
-	case Structural(Sum)
+	case Structural(Any.Type, Sum)
 
 	/// An opaque reference to a type.
 	case Opaque(Any.Type)
@@ -11,7 +11,7 @@ public enum Metatype: Metaprogrammable {
 
 
 	public static var metatype: Metatype {
-		return .Structural([
+		return Structural(self, [
 			"Structural": [ Sum.metatype ],
 			"Opaque": [ .Opaque(Any.Type.self) ],
 			"Recurrence": [],
