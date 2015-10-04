@@ -22,6 +22,10 @@ public enum Metatype: CustomStringConvertible, Metaprogrammable {
 		self = Structural(type, structure)
 	}
 
+	public init<T: TaggedType>(_ type: T.Type, @autoclosure(escaping) _ structure: () -> TaggedSum<T>) {
+		self.init(type, structure().sum)
+	}
+
 
 	public var description: String {
 		return String(type)
