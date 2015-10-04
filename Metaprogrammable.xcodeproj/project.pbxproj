@@ -17,6 +17,7 @@
 		D43AC8BB1BC19EF0008762B7 /* Metatype.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43AC8BA1BC19EF0008762B7 /* Metatype.swift */; };
 		D43AC8BD1BC1B5D6008762B7 /* Metavalue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43AC8BC1BC1B5D6008762B7 /* Metavalue.swift */; };
 		D43AC8BF1BC1B638008762B7 /* Field.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43AC8BE1BC1B638008762B7 /* Field.swift */; };
+		D43AC8C31BC1C44E008762B7 /* TaggedType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43AC8C21BC1C44E008762B7 /* TaggedType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		D43AC8BA1BC19EF0008762B7 /* Metatype.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Metatype.swift; sourceTree = "<group>"; };
 		D43AC8BC1BC1B5D6008762B7 /* Metavalue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Metavalue.swift; sourceTree = "<group>"; };
 		D43AC8BE1BC1B638008762B7 /* Field.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Field.swift; sourceTree = "<group>"; };
+		D43AC8C21BC1C44E008762B7 /* TaggedType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaggedType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 				D43AC8BA1BC19EF0008762B7 /* Metatype.swift */,
 				D43AC8BC1BC1B5D6008762B7 /* Metavalue.swift */,
 				D43AC8BE1BC1B638008762B7 /* Field.swift */,
+				D43AC8C21BC1C44E008762B7 /* TaggedType.swift */,
 				D43AC8951BC19151008762B7 /* Supporting Files */,
 			);
 			path = Metaprogrammable;
@@ -223,6 +226,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D43AC8BD1BC1B5D6008762B7 /* Metavalue.swift in Sources */,
+				D43AC8C31BC1C44E008762B7 /* TaggedType.swift in Sources */,
 				D43AC8BB1BC19EF0008762B7 /* Metatype.swift in Sources */,
 				D43AC8B31BC19188008762B7 /* Metaprogrammable.swift in Sources */,
 				D43AC8B51BC19208008762B7 /* Product.swift in Sources */,
