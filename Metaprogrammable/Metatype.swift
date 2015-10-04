@@ -9,6 +9,16 @@ public enum Metatype: CustomStringConvertible, Metaprogrammable {
 	case Opaque(Any.Type)
 
 
+	public var type: Any.Type {
+		switch self {
+		case let .Structural(t, _):
+			return t
+		case let .Opaque(t):
+			return t
+		}
+	}
+
+
 	public var description: String {
 		switch self {
 		case let .Structural(t, _):
