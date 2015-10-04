@@ -3,7 +3,7 @@
 /// A description of the structure of a type.
 public enum Metatype: CustomStringConvertible, Metaprogrammable {
 	/// A structural, or algebraic, type.
-	case Structural(Any.Type, Sum)
+	case Structural(Any.Type, () -> Sum)
 
 	/// An opaque reference to a type.
 	case Opaque(Any.Type)
@@ -18,7 +18,7 @@ public enum Metatype: CustomStringConvertible, Metaprogrammable {
 		}
 	}
 
-	public init<T>(_ type: T.Type, _ structure: Sum) {
+	public init<T>(_ type: T.Type, @autoclosure(escaping) _ structure: () -> Sum) {
 		self = Structural(type, structure)
 	}
 
