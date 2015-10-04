@@ -9,8 +9,8 @@ public enum Product: ArrayLiteralConvertible, Metaprogrammable {
 	}
 
 	public static var metatype: Metatype {
-		return .Structural(self, [
-			"Field": [ Metatype.metatype, /*.Recurrence*/ ],
+		return Metatype(self, [
+			"Field": [ Metatype.metatype, self.metatype ],
 			"End": [],
 		])
 	}

@@ -9,8 +9,8 @@ public enum Sum: DictionaryLiteralConvertible, Metaprogrammable {
 	}
 
 	public static var metatype: Metatype {
-		return .Structural(self, [
-			"Branch": [ .Opaque(String.self), Product.metatype, /*.Recurrence*/ ],
+		return Metatype(self, [
+			"Branch": [ .Opaque(String.self), Product.metatype, self.metatype ],
 			"End": [],
 		])
 	}

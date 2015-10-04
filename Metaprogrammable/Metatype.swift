@@ -18,13 +18,17 @@ public enum Metatype: CustomStringConvertible, Metaprogrammable {
 		}
 	}
 
+	public init<T>(_ type: T.Type, _ structure: Sum) {
+		self = Structural(type, structure)
+	}
+
 
 	public var description: String {
 		return String(type)
 	}
 
 	public static var metatype: Metatype {
-		return Structural(self, [
+		return Metatype(self, [
 			"Structural": [ Sum.metatype ],
 			"Opaque": [ .Opaque(Any.Type.self) ],
 		])
